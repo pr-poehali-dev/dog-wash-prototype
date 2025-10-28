@@ -90,7 +90,63 @@ export default function Index() {
         <div className="mb-16">
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-montserrat">
-              Галерея прототипа
+              3D-обзор прототипа
+            </h2>
+            <p className="text-gray-600 text-lg">
+              Рассмотрите МОЙПЕС со всех сторон
+            </p>
+          </div>
+          
+          <div className="max-w-6xl mx-auto mb-12">
+            <Card className="border-0 shadow-2xl overflow-hidden">
+              <div className="grid md:grid-cols-2 gap-0">
+                <div className="relative group">
+                  <img 
+                    src="https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/4df5f8a1-d0e1-405f-afa9-08a3e07ea346.jpg"
+                    alt="Вид спереди"
+                    className="w-full h-80 object-cover hover-scale"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                    <p className="text-white font-semibold">Вид спереди</p>
+                  </div>
+                </div>
+                <div className="relative group">
+                  <img 
+                    src="https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/f801aa61-aaa0-4fb9-a371-5bfca0ad7124.jpg"
+                    alt="Вид сбоку"
+                    className="w-full h-80 object-cover hover-scale"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                    <p className="text-white font-semibold">Вид сбоку</p>
+                  </div>
+                </div>
+                <div className="relative group">
+                  <img 
+                    src="https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/f7ba80b6-659b-4530-8882-b70d46e9097f.jpg"
+                    alt="Вид сзади"
+                    className="w-full h-80 object-cover hover-scale"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                    <p className="text-white font-semibold">Вид сзади</p>
+                  </div>
+                </div>
+                <div className="relative group">
+                  <img 
+                    src="https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/84946c51-498a-45cf-8169-67d650eb24b3.jpg"
+                    alt="Вид сверху"
+                    className="w-full h-80 object-cover hover-scale"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                    <p className="text-white font-semibold">Вид сверху</p>
+                  </div>
+                </div>
+              </div>
+            </Card>
+          </div>
+
+          <div className="text-center mb-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-montserrat">
+              Галерея эскизов
             </h2>
             <p className="text-gray-600 text-lg">
               От концепции до реализации
