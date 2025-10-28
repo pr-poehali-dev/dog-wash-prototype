@@ -132,7 +132,7 @@ export default function Index() {
                 </div>
                 <div className="relative group">
                   <img 
-                    src="https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/84946c51-498a-45cf-8169-67d650eb24b3.jpg"
+                    src="https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/5d76f032-7b3a-4f20-9d6c-961f04287e38.jpg"
                     alt="Вид сверху"
                     className="w-full h-80 object-cover hover-scale"
                   />
