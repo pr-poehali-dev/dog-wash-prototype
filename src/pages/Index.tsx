@@ -12,9 +12,19 @@ export default function Index() {
 
   const galleryImages = [
     {
+      url: "https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/81da7a70-f7ac-49bb-8793-1d50a29a8d2b.jpg",
+      title: "Прототип DogWash Pro",
+      description: "3D-визуализация устройства"
+    },
+    {
       url: "https://cdn.poehali.dev/files/882c4aaf-32ff-4d89-8136-b75c0d81a3e6.jpg",
-      title: "Прототип устройства",
-      description: "Цилиндрическая форма с откидной крышкой"
+      title: "Технический эскиз",
+      description: "Концепция устройства"
+    },
+    {
+      url: "https://cdn.poehali.dev/files/54ac8521-055a-4eb0-88fb-e47bd16099c5.jpg",
+      title: "Эскиз конструкции",
+      description: "Детали механизма"
     }
   ];
 
@@ -69,6 +79,33 @@ export default function Index() {
               alt={galleryImages[0].title}
               className="relative rounded-2xl shadow-2xl w-full hover-scale"
             />
+          </div>
+        </div>
+
+        <div className="mb-16">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-montserrat">
+              Галерея прототипа
+            </h2>
+            <p className="text-gray-600 text-lg">
+              От концепции до реализации
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-6">
+            {galleryImages.map((image, index) => (
+              <Card key={index} className="border-0 shadow-lg overflow-hidden hover-scale animate-fade-in" style={{ animationDelay: `${index * 100}ms` }}>
+                <img 
+                  src={image.url}
+                  alt={image.title}
+                  className="w-full h-64 object-cover"
+                />
+                <CardContent className="p-4">
+                  <h3 className="font-semibold text-gray-900 mb-1">{image.title}</h3>
+                  <p className="text-sm text-gray-600">{image.description}</p>
+                </CardContent>
+              </Card>
+            ))}
           </div>
         </div>
 
