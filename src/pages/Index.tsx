@@ -12,24 +12,24 @@ export default function Index() {
 
   const galleryImages = [
     {
-      url: "https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/60f10406-b1fd-4d11-97f7-099837d99bac.jpg",
-      title: "МОЙПЕС — рабочий прототип",
-      description: "Собака стоит на лапах, душевая лейка сверху"
+      url: "https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/9c04bb73-8e28-45c8-a4b3-829316de6a48.jpg",
+      title: "МОЙПЕС — финальный прототип",
+      description: "Объединяет лучшие элементы всех эскизов"
     },
     {
-      url: "https://cdn.poehali.dev/files/a87a4d72-35ee-4c49-a23d-acdc23efb305.jpg",
-      title: "Оригинальный эскиз",
-      description: "Первоначальная концепция устройства"
+      url: "https://cdn.poehali.dev/files/fe208b4b-5032-4f16-a749-7d8fb5a999f6.png",
+      title: "Технический чертеж с аннотациями",
+      description: "Подробная схема с техническими пояснениями"
     },
     {
-      url: "https://cdn.poehali.dev/files/2699c576-41ed-4bea-b12f-4e48ba2172db.png",
-      title: "Технический чертеж МОЙПЕС",
-      description: "Подробная схема устройства"
+      url: "https://cdn.poehali.dev/files/ac09ee89-ea29-429c-9ea4-841610dabb8a.jpg",
+      title: "Детальный эскиз с собакой",
+      description: "Проработка конструкции и компоновки"
     },
     {
-      url: "https://cdn.poehali.dev/files/882c4aaf-32ff-4d89-8136-b75c0d81a3e6.jpg",
-      title: "Технический эскиз",
-      description: "Концепция устройства"
+      url: "https://cdn.poehali.dev/files/aab03ed0-0b08-4c36-acdd-33a419d84ad4.jpg",
+      title: "Эскиз открытой конструкции",
+      description: "Вид с откинутой крышкой"
     }
   ];
 
