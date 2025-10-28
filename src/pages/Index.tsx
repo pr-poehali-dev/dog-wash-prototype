@@ -12,9 +12,9 @@ export default function Index() {
 
   const galleryImages = [
     {
-      url: "https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/81da7a70-f7ac-49bb-8793-1d50a29a8d2b.jpg",
-      title: "Прототип DogWash Pro",
-      description: "3D-визуализация устройства"
+      url: "https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/873be637-ac31-4bbb-8966-5d53b6fa721c.jpg",
+      title: "Прототип в работе",
+      description: "Собака стоит внутри, голова снаружи"
     },
     {
       url: "https://cdn.poehali.dev/files/882c4aaf-32ff-4d89-8136-b75c0d81a3e6.jpg",
