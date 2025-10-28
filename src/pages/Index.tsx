@@ -12,9 +12,14 @@ export default function Index() {
 
   const galleryImages = [
     {
-      url: "https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/873be637-ac31-4bbb-8966-5d53b6fa721c.jpg",
-      title: "Прототип в работе",
-      description: "Собака стоит внутри, голова снаружи"
+      url: "https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/6e7533b8-4390-493e-92b7-f14b8344d57f.jpg",
+      title: "МОЙПЕС — прототип в работе",
+      description: "Собака внутри устройства, голова снаружи"
+    },
+    {
+      url: "https://cdn.poehali.dev/files/2699c576-41ed-4bea-b12f-4e48ba2172db.png",
+      title: "Технический чертеж МОЙПЕС",
+      description: "Подробная схема устройства"
     },
     {
       url: "https://cdn.poehali.dev/files/882c4aaf-32ff-4d89-8136-b75c0d81a3e6.jpg",
@@ -41,9 +46,9 @@ export default function Index() {
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
       <header className="container mx-auto px-4 py-8 md:py-12">
         <div className="flex items-center justify-center gap-3 mb-4">
-          <Icon name="Sparkles" className="text-sky-500" size={32} />
+          <Icon name="Droplet" className="text-teal-500" size={32} />
           <h1 className="text-3xl md:text-5xl font-bold text-gray-900 font-montserrat">
-            DogWash Pro
+            МОЙПЕС
           </h1>
         </div>
         <p className="text-center text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
@@ -56,7 +61,7 @@ export default function Index() {
           <div className="space-y-6 animate-fade-in">
             <Badge variant="outline" className="text-sm">
               <Icon name="Zap" size={14} className="mr-1" />
-              Прототип v1.0
+              Прототип МОЙПЕС v1.0
             </Badge>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 font-montserrat leading-tight">
               Инновационное решение для ухода за питомцами
@@ -66,14 +71,14 @@ export default function Index() {
               Голова питомца остается снаружи через специальное отверстие, что обеспечивает комфорт и безопасность.
             </p>
             <div className="flex flex-wrap gap-3">
-              <Badge className="bg-sky-500 hover:bg-sky-600">Безопасно</Badge>
-              <Badge className="bg-sky-500 hover:bg-sky-600">Эффективно</Badge>
-              <Badge className="bg-sky-500 hover:bg-sky-600">Комфортно</Badge>
+              <Badge className="bg-teal-500 hover:bg-teal-600">Безопасно</Badge>
+              <Badge className="bg-teal-500 hover:bg-teal-600">Эффективно</Badge>
+              <Badge className="bg-teal-500 hover:bg-teal-600">Комфортно</Badge>
             </div>
           </div>
 
           <div className="relative animate-scale-in">
-            <div className="absolute inset-0 bg-gradient-to-tr from-sky-500/20 to-blue-500/20 rounded-3xl blur-3xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-tr from-teal-500/20 to-cyan-500/20 rounded-3xl blur-3xl"></div>
             <img 
               src={galleryImages[0].url}
               alt={galleryImages[0].title}
@@ -92,7 +97,7 @@ export default function Index() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {galleryImages.map((image, index) => (
               <Card key={index} className="border-0 shadow-lg overflow-hidden hover-scale animate-fade-in" style={{ animationDelay: `${index * 100}ms` }}>
                 <img 
@@ -113,8 +118,8 @@ export default function Index() {
           {features.map((feature, index) => (
             <Card key={index} className="border-0 shadow-lg hover-scale animate-fade-in" style={{ animationDelay: `${index * 100}ms` }}>
               <CardContent className="p-6 space-y-3">
-                <div className="w-12 h-12 rounded-full bg-sky-100 flex items-center justify-center">
-                  <Icon name={feature.icon} className="text-sky-500" size={24} />
+                <div className="w-12 h-12 rounded-full bg-teal-100 flex items-center justify-center">
+                  <Icon name={feature.icon} className="text-teal-500" size={24} />
                 </div>
                 <h3 className="font-semibold text-lg text-gray-900">{feature.title}</h3>
                 <p className="text-gray-600 text-sm">{feature.description}</p>
@@ -145,7 +150,7 @@ export default function Index() {
                       className="flex items-start gap-4 p-4 rounded-lg hover:bg-gray-50 transition-colors animate-fade-in"
                       style={{ animationDelay: `${index * 50}ms` }}
                     >
-                      <div className="w-2 h-2 rounded-full bg-sky-500 mt-2"></div>
+                      <div className="w-2 h-2 rounded-full bg-teal-500 mt-2"></div>
                       <div className="flex-1">
                         <dt className="text-sm text-gray-500 mb-1">{spec.label}</dt>
                         <dd className="text-lg font-semibold text-gray-900">{spec.value}</dd>
@@ -173,7 +178,7 @@ export default function Index() {
             { step: "03", title: "Сушка", description: "Встроенная система теплого воздуха бережно высушивает шерсть за несколько минут." }
           ].map((item, index) => (
             <div key={index} className="text-center animate-fade-in" style={{ animationDelay: `${index * 150}ms` }}>
-              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-sky-500 to-blue-600 flex items-center justify-center text-white font-bold text-xl mx-auto mb-4 shadow-lg">
+              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-teal-500 to-cyan-600 flex items-center justify-center text-white font-bold text-xl mx-auto mb-4 shadow-lg">
                 {item.step}
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">{item.title}</h3>
@@ -186,7 +191,7 @@ export default function Index() {
       <footer className="bg-gray-900 text-white py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-gray-400">
-            © 2025 DogWash Pro. Прототип автоматической мойки для собак.
+            © 2025 МОЙПЕС. Прототип автоматической мойки для собак.
           </p>
         </div>
       </footer>
