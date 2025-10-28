@@ -12,9 +12,9 @@ export default function Index() {
 
   const galleryImages = [
     {
-      url: "https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/1f667199-5d92-4b50-8575-d66fb711a954.jpg",
-      title: "МОЙПЕС — герметичный прототип",
-      description: "Полностью закрытый цилиндр, снаружи только голова"
+      url: "https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/b5100cb1-b5da-4c17-9bb9-4b1a90287245.jpg",
+      title: "МОЙПЕС — финальный прототип",
+      description: "Герметичный непрозрачный корпус, голова снаружи"
     },
     {
       url: "https://cdn.poehali.dev/files/fe208b4b-5032-4f16-a749-7d8fb5a999f6.png",
