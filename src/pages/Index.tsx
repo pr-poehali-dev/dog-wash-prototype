@@ -12,9 +12,14 @@ export default function Index() {
 
   const galleryImages = [
     {
-      url: "https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/6e7533b8-4390-493e-92b7-f14b8344d57f.jpg",
-      title: "МОЙПЕС — прототип в работе",
-      description: "Собака внутри устройства, голова снаружи"
+      url: "https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/60f10406-b1fd-4d11-97f7-099837d99bac.jpg",
+      title: "МОЙПЕС — рабочий прототип",
+      description: "Собака стоит на лапах, душевая лейка сверху"
+    },
+    {
+      url: "https://cdn.poehali.dev/files/a87a4d72-35ee-4c49-a23d-acdc23efb305.jpg",
+      title: "Оригинальный эскиз",
+      description: "Первоначальная концепция устройства"
     },
     {
       url: "https://cdn.poehali.dev/files/2699c576-41ed-4bea-b12f-4e48ba2172db.png",
@@ -25,11 +30,6 @@ export default function Index() {
       url: "https://cdn.poehali.dev/files/882c4aaf-32ff-4d89-8136-b75c0d81a3e6.jpg",
       title: "Технический эскиз",
       description: "Концепция устройства"
-    },
-    {
-      url: "https://cdn.poehali.dev/files/54ac8521-055a-4eb0-88fb-e47bd16099c5.jpg",
-      title: "Эскиз конструкции",
-      description: "Детали механизма"
     }
   ];
 
