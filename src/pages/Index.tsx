@@ -12,9 +12,9 @@ export default function Index() {
 
   const galleryImages = [
     {
-      url: "https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/b5100cb1-b5da-4c17-9bb9-4b1a90287245.jpg",
+      url: "https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/b7ca956b-0a76-4251-ba86-d5a367a80cfc.jpg",
       title: "МОЙПЕС — финальный прототип",
-      description: "Герметичный непрозрачный корпус, голова снаружи"
+      description: "Компактное отверстие, плотная герметизация"
     },
     {
       url: "https://cdn.poehali.dev/files/fe208b4b-5032-4f16-a749-7d8fb5a999f6.png",
@@ -102,7 +102,7 @@ export default function Index() {
               <div className="grid md:grid-cols-2 gap-0">
                 <div className="relative group">
                   <img 
-                    src="https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/4df5f8a1-d0e1-405f-afa9-08a3e07ea346.jpg"
+                    src="https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/b7ca956b-0a76-4251-ba86-d5a367a80cfc.jpg"
                     alt="Вид спереди"
                     className="w-full h-80 object-cover hover-scale"
                   />
@@ -112,7 +112,7 @@ export default function Index() {
                 </div>
                 <div className="relative group">
                   <img 
-                    src="https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/f801aa61-aaa0-4fb9-a371-5bfca0ad7124.jpg"
+                    src="https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/f38ade51-39d5-45e5-ae66-97b4528fcc11.jpg"
                     alt="Вид сбоку"
                     className="w-full h-80 object-cover hover-scale"
                   />
@@ -132,7 +132,7 @@ export default function Index() {
                 </div>
                 <div className="relative group">
                   <img 
-                    src="https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/5d76f032-7b3a-4f20-9d6c-961f04287e38.jpg"
+                    src="https://cdn.poehali.dev/projects/445ec4c5-6c91-40e8-adf1-9aca81c4dbe9/files/a60caad1-b95f-4858-acff-58236558142f.jpg"
                     alt="Вид сверху"
                     className="w-full h-80 object-cover hover-scale"
                   />
